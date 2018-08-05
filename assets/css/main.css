@@ -1,0 +1,12 @@
+body #background img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+#content {
+    position: absolute;
+    z-index: 2;
+}

@@ -1,2 +1,2 @@
-# pjsteininger.github.io
-Going LIVE test page
+# chessboard
+chess board and pieces
