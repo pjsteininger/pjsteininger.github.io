@@ -9,4 +9,69 @@ body #background img {
 #content {
     position: absolute;
     z-index: 2;
+    width: 100%;
+}
+#content div div a img {
+    position: relative;
+    left: 60px;
+    top: 15px;
+    height: 66px;
+    width: 66px;
+    padding: 5px;
+    background-color: rgb(230, 230, 230);
+    border: 3px solid rgb(100, 100, 100);
+    border-radius: 10px;
+}
+#content div div a img:hover {
+    background-color: rgb(240, 240, 240);
+    border: 3px solid rgb(80, 80, 80);
+}
+#content div div nav {
+    position: relative;
+}
+#content div div nav ul {
+    position: absolute;
+    right: 30px;
+    top: -65px;
+    display: inline-block;
+    margin-right: 15px;
+}
+#content div div nav ul li {
+    position: relative;
+    right: 10px;
+    margin: 10px;
+    display: inline-block;
+    height: 80px;
+    width: 100px;
+
+}
+#content div div nav ul li a {
+    display: block;
+    font-size: 15px;
+    line-height: 80px;
+    margin: auto;
+    text-align: center;
+    color: rgb(30, 30, 30);
+    text-decoration: none;
+
+}
+#content div div nav ul li a:hover {
+
+}
+#content div div nav ul li .active {
+    background: radial-gradient(rgba(250, 250, 250, 1), rgba(240, 240, 240, 0.05), rgba(200, 200, 200, 0.02));
+    color: rgb(30, 30, 30);
+    border-radius: 100px;
+}
+hr {
+    border-color: whitesmoke;
+    margin: 0;
+}
+#header-bg {
+    background: linear-gradient(to top, rgb(180, 180, 180), rgb(240, 240, 240)) ;
+    height: 110px;
+}
+.header {
+    position: relative;
+    top: 6px;
 }
