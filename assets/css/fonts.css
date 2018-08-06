@@ -26,3 +26,11 @@
     font-family: Sacramento;
     src: url(../fonts/Sacramento-Regular.ttf);
 }
+@font-face {
+    font-family: RobotoMono;
+    src: url(../fonts/RobotoMono-Regular.ttf);
+}
+@font-face {
+    font-family: RobotoMono-Bold;
+    src: url(../fonts/RobotoMono-Bold.ttf);
+}
