@@ -1,3 +1,4 @@
+
 body #background img {
     position: absolute;
     left: 0;
@@ -74,4 +75,11 @@ hr {
 .header {
     position: relative;
     top: 6px;
+}
+#content h1 {
+    font-size: 100px;
+    color: lightgray;
+    text-align: center;
+    margin: 200px;
+    font-family: DancingScript-Bold;
 }
