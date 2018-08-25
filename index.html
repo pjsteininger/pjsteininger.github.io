@@ -4,67 +4,132 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Philip Steininger</title>
-    <link rel="icon" type="image/png" href="assets/images/block6.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/bootstrap.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/fonts.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/main.css" />
+    <link rel="icon" type="image/png" href="assets/images/icons/blocks3.png">
     <script src="assets/javascript/jquery-3.3.1.min.js"></script>
+    <script src="assets/javascript/bootstrap.bundle.js"></script>
     <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
     <script src="assets/javascript/moment.js"></script>
     <script src="assets/javascript/main.js"></script>
 </head>
 
 <body>
-    <div id="background">
-        <img src="assets/images/bg2.jpg">
-    </div>
-    <div id="content">
-        <header>
-            <div class="header">
-                <a href="./index.html">
-                    <img src="assets/images/block6.png" alt="phil">
-                </a>
-            </div>
-            <div class="header">
-                <nav>
-                    <ul>
-                        <li>
-                            <a href="./about.html">About</a>
+    <nav class="bg-dark text-light py-4">
+        <div class="container">
+            <div class="row align-middle text-center">
+                <div class="col-md-1 align-middle">
+                    <a class="align-middle" href="#">
+                        <img src="assets/images/icons/blocks6.png" alt="logo">
+                    </a>
+                </div>
+                <div class="col-md-11 ">
+                    <ul class="nav justify-content-md-end justify-content-center">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light">About</a>
                         </li>
-                        <li>
-                            <a href="./portfolio.html">Portfolio</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light">Portfolio</a>
                         </li>
-                        <li>
-                            <a href="./contact.html">Contact</a>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-light">Contact</a>
                         </li>
                     </ul>
-                </nav>
+                </div>
             </div>
-        </header>
-        <div>
-            <h1>PHILIP STEININGER</h1>
         </div>
-        <footer>
-            <ul>
-                <li>
-                    <a href="https://www.github.com/pjsteininger/" target="_blank"><img src="assets/images/iconmonstr-github-2.svg" alt="email"></a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/philip-steininger-735b677/" target="_blank"><img src="assets/images/iconmonstr-linkedin-2.svg" alt="email"></a>
-                </li>
-                <li>
-                    <a href="https://www.instagram.com/phiddip/" target="_blank"><img src="assets/images/iconmonstr-instagram-2.svg" alt="email"></a>
-                </li>
-                <li>
-                    <a href="mailto:philipsteininger@gmail.com"><img src="assets/images/iconmonstr-email-2.svg" alt="email"></a>
-                </li>
-            </ul>
-            <h4>© 2018 Philip Steininger</h4>
-        </footer>
+    </nav>
+    <div class="bg-secondary">
+        <div class="container my-0 py-5">
+            <div class="row">
+                <div class="bg-secondary text-light text-center col-md-12">
+                    <img src="assets/images/headshot.jpg" alt="headshot" class="my-4 mx-auto w-25 border border-light rounded-circle">
+                    <h1 class="mb-3">Philip Steininger</h1>
+
+                    <hr class="bg-light p-2 m-2">
+                    <h3 class="my-3">Web Developer</h3>
+                    <ul class="text-center d-block">
+                        <li class="d-inline-block p-2">
+                            <h4>HTML5</h4>
+                        </li>
+                        <li class="d-inline-block p-2">
+                            <h4>CSS3</h4>
+                        </li>
+                        <li class="d-inline-block p-2">
+                            <h4>JavaScript</h4>
+                        </li>
+                        <li class="d-inline-block p-2">
+                            <h4>jQuery</h4>
+                        </li>
+                        <li class="d-inline-block p-2">
+                            <h4>node</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="bg-light">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-9">
+                    <h2>About</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dolor, sodales quis efficitur
+                        ac, auctor quis libero. Donec varius, neque sit amet laoreet lacinia, nibh eros viverra sem, pellentesque
+                        condimentum est quam sed sem. Fusce aliquet malesuada urna. Vivamus ut justo nec leo fermentum egestas.
+                        Praesent id diam ultrices, aliquam diam ut, malesuada nunc. Cras orci enim, consectetur vel placerat
+                        sed, posuere non felis. Aenean dictum ullamcorper lobortis.</p>
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/hands2.jpg" alt="phil explaining" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bg-secondary text-light">
+        <div class="container py-5 text-center">
+            <div class="row">
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid img-thumbnail" src="assets/images/coinflip.PNG">
+                    <h3>Coin Flip</h3>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid img-thumbnail" src="assets/images/dchat.PNG">
+                    <h3>Chat room</h3>
+                </div>
+                <div class="col-md-2">
+
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid img-thumbnail" src="assets/images/movietrivia.png">
+                    <h3>Movie trivia</h3>
+                </div>
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-3">
+                    <img class="img-fluid img-thumbnail" src="assets/images/bg1.jpg">
+                    <h3>background pic</h3>
+                </div>
+                <div class="col-md-2">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 </body>
 
 </html>
