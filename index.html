@@ -18,7 +18,7 @@
 </head>
 
 <body>
-    <nav class="bg-dark text-light py-4">
+    <nav class="bg-dark text-light py-4 fixed-top">
         <div class="container">
             <div class="row align-middle text-center">
                 <div class="col-md-1 align-middle">
@@ -26,13 +26,13 @@
                         <img src="assets/images/icons/blocks10.png" alt="logo">
                     </a>
                 </div>
-                <div class="col-md-11 ">
+                <div class="col-md-11">
                     <ul class="nav justify-content-md-end justify-content-center">
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-light">About</a>
+                            <a href="#about" class="nav-link text-light">About</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link text-light">Portfolio</a>
+                            <a href="#portfolio" class="nav-link text-light">Portfolio</a>
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link text-light">Contact</a>
@@ -42,42 +42,44 @@
             </div>
         </div>
     </nav>
-    <div class="bg-secondary">
-        <div class="container my-0 py-5">
+    <section class="bg-secondary" id="intro">
+        <div class="container my-0 py-5 ">
             <div class="row">
-                <div class="bg-secondary text-light text-center col-md-12">
+                <div class="col-md-12 text-center ">
                     <img src="assets/images/headshot.jpg" alt="headshot" class="my-4 mx-auto w-25 border border-light rounded-circle">
-                    <h1 class="mb-3">Philip Steininger</h1>
+                    <div class=" text-light ">
 
-                    <hr class="bg-light p-2 m-2">
-                    <h3 class="my-3">Web Developer</h3>
-                    <ul class="text-center d-block">
-                        <li class="d-inline-block p-2">
-                            <h4>HTML5</h4>
-                        </li>
-                        <li class="d-inline-block p-2">
-                            <h4>CSS3</h4>
-                        </li>
-                        <li class="d-inline-block p-2">
-                            <h4>JavaScript</h4>
-                        </li>
-                        <li class="d-inline-block p-2">
-                            <h4>jQuery</h4>
-                        </li>
-                        <li class="d-inline-block p-2">
-                            <h4>node</h4>
-                        </li>
-                    </ul>
+                        <h1 class="p-2">Philip Steininger</h1>
+                        <h3 class="my-3">Web Developer</h3>
+                        <hr class="bg-light p-2 m-2">
+                        <ul class="text-center d-block pt-2">
+                            <li class="d-inline-block p-2">
+                                <h4>HTML5</h4>
+                            </li>
+                            <li class="d-inline-block p-2">
+                                <h4>CSS3</h4>
+                            </li>
+                            <li class="d-inline-block p-2">
+                                <h4>JavaScript</h4>
+                            </li>
+                            <li class="d-inline-block p-2">
+                                <h4>jQuery</h4>
+                            </li>
+                            <li class="d-inline-block p-2">
+                                <h4>node</h4>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bg-light">
-        <div class="container py-5">
+    </section>
+    <section id="about">
+        <h2 class="text-center text-light" id="about-header">About</h2>
+        <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <h2>About</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dolor, sodales quis efficitur
+                    <p class="text-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent nunc dolor, sodales quis efficitur
                         ac, auctor quis libero. Donec varius, neque sit amet laoreet lacinia, nibh eros viverra sem, pellentesque
                         condimentum est quam sed sem. Fusce aliquet malesuada urna. Vivamus ut justo nec leo fermentum egestas.
                         Praesent id diam ultrices, aliquam diam ut, malesuada nunc. Cras orci enim, consectetur vel placerat
@@ -88,8 +90,8 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="bg-secondary text-light">
+    </section>
+    <section class="bg-secondary text-light" id="portfolio">
         <div class="container py-5 text-center">
             <div class="row">
                 <div class="col-md-2">
@@ -120,15 +122,14 @@
                 <div class="col-md-2">
                 </div>
                 <div class="col-md-3">
-                    <img class="img-fluid img-thumbnail" src="assets/images/bg1.jpg">
-                    <h3>background pic</h3>
+                    <img class="img-fluid img-thumbnail" src="assets/images/backgrounds/bg1.jpg">
+                    <h3>Placeholder pic</h3>
                 </div>
                 <div class="col-md-2">
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 
 </body>
 

@@ -1,16 +1,22 @@
+nav {
+    background-image: url("../images/backgrounds/topbg.png");
+    background-size: cover;
+    box-shadow: 0 2px 3px 2px rgb(50, 50, 55);
+}
 body nav div div div a img {
     height: 40px;
 }
 #intro {
     padding-top: 12vh;
     min-height: 100vh;
-    background-image: url("../images/texture1.png") ;
+    background-image: url("../images/backgrounds/IMG_3085.jpg") ;
     background-size: cover;
 }
 #about {
     padding-top: 30vh;
     min-height: 100vh;
-    background-color: #e9ecef;
+    background-image: url("../images/backgrounds/IMG_3084.jpg");
+    background-size: cover;
 }
 #about-header {
     position: absolute;
@@ -23,12 +29,19 @@ body nav div div div a img {
     margin-bottom: 20px;
 }
 #about p {
-
+    font-size-adjust: 1;
 }
-
-
 
 #portfolio {
     padding-top: 10vh;
     min-height: 100vh;
+    background-image: url("../images/backgrounds/blueish.png");
+    background-size: cover;
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+@media only screen and (min-width: 768px) {
+
 }
