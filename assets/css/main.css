@@ -15,7 +15,7 @@ body nav div div div a img {
 #about {
     padding-top: 30vh;
     min-height: 100vh;
-    background-image: url("../images/backgrounds/IMG_3084.jpg");
+    background-image: url("../images/backgrounds/blueripple.jpg");
     background-size: cover;
 }
 #about-header {
@@ -37,7 +37,7 @@ body nav div div div a img {
 #portfolio {
     padding-top: 10vh;
     min-height: 100vh;
-    background-image: url("../images/backgrounds/blueish.png");
+    background-image: url("../images/backgrounds/psy.png");
     background-size: cover;
 }
  footer {
@@ -80,6 +80,11 @@ body nav div div div a img {
     height: 200px;
     width: 400px;
     margin: 100px 0 10px 0;
+}
+.section-divider {
+    background-color: #a7cbd5;
+    height: 10px;
+    box-shadow: inset 0 0 3px 1px rgb(30,30,33);
 }
 @media only screen and (max-width: 600px) {
 
