@@ -29,10 +29,11 @@ body nav div div div a img {
     border: 1px solid #a7cbd5;
     box-shadow: 0 0 3px 2px rgb(30,30,33);
     margin-bottom: 20px;
+    height: 200px;
 }
 #about p {
-
-    font-size: 24px;
+    padding: 10px;
+    font-size: 30px;
     font-weight: bolder;
 }
 
