@@ -5,8 +5,36 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.welcome {
+    text-align: center;
     font-family: "Archivo Black", sans-serif;
-    font-size: x-large;
+    color: #ddd;
+}
+
+#welcome-msg {
+    font-size: 70px;
+    padding: 36vh 0 0 0;
+}
+
+.buttons {
+    background-color: #123;
+    border: 1px solid #ddd;
+    border-radius: 40px;
+    color: inherit;
+    cursor: pointer;
+    font-size: 40px;
+    margin: 20px 30px 0 30px;
+    width: 300px;
+}
+
+.buttons:hover {
+    background-color: #146;
+}
+
+.buttons:focus {
+    outline: none;
+}
+
+.buttons:active {
+    background-color: #ddd;
+    color: #235;
 }
