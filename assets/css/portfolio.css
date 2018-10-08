@@ -1,6 +1,4 @@
-body {
-
-}
+body {}
 
 .portfolio-item {
     text-align: center;
@@ -10,8 +8,6 @@ body {
     border: 4px solid black;
     border-radius: 100px;
     box-shadow: inset 0 0 40px 3px black;
-    background-color: #ccc;
-    background-image: repeating-linear-gradient(to right, rgba(140, 140, 140, 0.2) 10px, rgba(120, 120, 120, 0.2) 20px, rgba(100, 100, 100, 0.2) 30px, rgba(120, 120, 120, 0.2) 40px, rgba(130, 130, 130, 0.2) 50px);
     color: black;
     cursor: pointer;
     display: inline-block;
@@ -19,6 +15,11 @@ body {
     padding: 20px;
     text-align: center;
     min-width: 500px;
+}
+
+.metal {
+    background-color: #ccc;
+    background-image: repeating-linear-gradient(to right, rgba(140, 140, 140, 0.2) 10px, rgba(120, 120, 120, 0.2) 20px, rgba(100, 100, 100, 0.2) 30px, rgba(120, 120, 120, 0.2) 40px, rgba(130, 130, 130, 0.2) 50px);
 }
 
 .portfolio-item-btn:active {
@@ -43,13 +44,9 @@ body {
 .portfolio-item-text {
     border: 1px solid black;
     border-radius: 10px;
+    box-shadow: inset 0 0 5px 1px black;
     margin: auto;
     max-width: 50%;
     padding: 10px;
-
     text-align: center;
-}
-
-.portfolio-item-text:active {
-    border: 1px solid whitesmoke;
 }
