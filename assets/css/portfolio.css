@@ -1,7 +1,14 @@
-body {}
+.flex-container {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+}
 
 .portfolio-item {
     text-align: center;
+    display: block;
 }
 
 .portfolio-item-btn {
@@ -10,8 +17,7 @@ body {}
     box-shadow: inset 0 0 40px 3px black;
     color: black;
     cursor: pointer;
-    display: inline-block;
-    margin: 20vh 0 0 0;
+    display: block;
     padding: 20px;
     text-align: center;
     min-width: 500px;
@@ -49,4 +55,24 @@ body {}
     max-width: 50%;
     padding: 10px;
     text-align: center;
+}
+.portfolio-nav {
+    align-items: center;
+    background-color: rgba(0,0,0,0.5);
+    color: rgb(200,200,200);
+    cursor: pointer;
+    display: flex;
+    font-size: 100px;
+    height: 100vh;
+    justify-content: center;
+    padding: auto;
+    text-align: center;
+    vertical-align: top;
+    width: 20vw;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
 }
