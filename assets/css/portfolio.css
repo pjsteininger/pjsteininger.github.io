@@ -1,10 +1,19 @@
+body {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
 .flex-container {
     align-items: center;
+    border: 3px solid rgba(100, 100, 100, 0.5);
+    border-radius: 20px;
+    box-shadow: inset 0 0 5px 2px black;
     display: flex;
     height: 50vh;
     justify-content: space-between;
     margin: auto;
-    width: 100vw;
+    width: 50vw;
 
 }
 
@@ -61,7 +70,9 @@
 .portfolio-nav {
     align-items: center;
     background-color: rgba(0,0,0,0.5);
-    color: rgb(200,200,200);
+    border: none;
+    border-radius: 20px;
+    color: rgba(200,200,200, 0.7);
     cursor: pointer;
     display: flex;
     font-size: 100px;
@@ -70,7 +81,14 @@
     padding: auto;
     text-align: center;
     vertical-align: top;
-    width: 15vw;
+    width: 15%;
+}
+.portfolio-nav:focus {
+    outline: none;
+}
+.portfolio-nav:active {
+    background-color: rgba(50,50,50, 0.4);
+    color: rgba(100,100,100, 0.7);
 }
 .left {
     float: left;
