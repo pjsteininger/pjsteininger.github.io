@@ -13,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     margin: auto;
-
+    background-color: #aaaba7;
     width: 50vw;
 
 }
@@ -21,6 +21,7 @@ body {
 .portfolio-item {
     text-align: center;
     display: block;
+
 }
 
 .portfolio-item-btn {
@@ -71,7 +72,7 @@ body {
 }
 .portfolio-nav {
     align-items: center;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.8);
     border: none;
 
     color: rgba(200,200,200, 0.7);
@@ -90,7 +91,7 @@ body {
 }
 .portfolio-nav:active {
     background-color: rgba(50,50,50, 0.4);
-    color: rgba(100,100,100, 0.7);
+    color: rgba(30,30,30, 0.7);
 }
 .left {
     border-radius: 20px 0 0 20px;
